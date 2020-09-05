@@ -38,7 +38,7 @@
     "watch": "yarn test:watch"
   },
   "dependencies": {
-    "@hapi/hapi": "^18.4.1",
+    "@hapi/hapi": "^20.0.0",
     "@mocktomata/framework": "^7.0.0-beta.5",
     "@mocktomata/io-fs": "^7.0.0-beta.5",
     "boom": "^7.3.0"

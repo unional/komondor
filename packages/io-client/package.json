@@ -39,7 +39,7 @@
   },
   "dependencies": {
     "@mocktomata/framework": "^7.0.0-beta.5",
-    "cross-fetch": "^3.0.4",
+    "cross-fetch": "^3.0.5",
     "type-plus": "^1.35.1"
   },
   "devDependencies": {

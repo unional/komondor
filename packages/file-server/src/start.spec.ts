@@ -23,6 +23,7 @@ describe('server behavior', () => {
     fs.writeFileSync(path.join(cwd, 'package.json'), JSON.stringify({ mocktomata: { overrideMode: 'live', filePathFilter: 'file', specNameFilter: 'spec' } }))
     const repository = new FileRepository({ cwd })
     await repository.writeSpec('exist', '', '{ "spec": "exist" }')
+    console.info(`Starting server at 3456`)
     server = await start({ cwd, port: 3456 })
   })
   afterAll(() => {
@@ -65,7 +66,7 @@ describe('server behavior', () => {
   test('write spec', async () => {
     const id = buildId('abc')
     const response = await fetch(buildUrl(`specs/${id}`), { method: 'POST', body: '{ a: 1 }' })
-    expect(response.status).toBe(200)
+    expect(response.status).toBe(204)
 
     const actual = await (await fetch(buildUrl(`specs/${id}`))).text()
 

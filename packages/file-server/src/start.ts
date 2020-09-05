@@ -101,7 +101,7 @@ function specPostRoute({ repo }: Context): ServerRoute {
     handler: async (request, h) => {
       const { specName, specRelativePath } = JSON.parse(atob(request.params.id))
       await repo.writeSpec(specName, specRelativePath, request.payload as string)
-      return h.response()
+      return h.response('')
     }
   }
 }
