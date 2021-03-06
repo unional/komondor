@@ -61,7 +61,7 @@
     "@mocktomata/io-local": "^7.0.0-beta.5",
     "async-fp": "^5.0.0",
     "chalk": "^3.0.0",
-    "clibuilder": "^6.3.1",
+    "clibuilder": "^7.0.0",
     "global-store": "^1.0.0-beta.15",
     "standard-log": "^4.1.2",
     "standard-log-color": "^1.5.19",
