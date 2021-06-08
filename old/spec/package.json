@@ -44,7 +44,7 @@
     "aurelia-logging-memory": "^1.0.2",
     "global-store": "^0.8.1",
     "iso-error": "^2.0.0",
-    "lerna": "^3.13.1",
+    "lerna": "^4.0.0",
     "satisfier": "^5.0.1",
     "tersify": "^2.0.4",
     "type-plus": "^1.17.1",
