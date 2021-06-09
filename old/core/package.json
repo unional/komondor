@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@mocktomata/plugin": "^7.0.0-alpha",
-    "@types/ramda": "^0.26.5",
+    "@types/ramda": "^0.27.0",
     "async-fp": "^1.1.1",
     "global-store": "^0.8.1",
     "is-node": "^1.0.2",
